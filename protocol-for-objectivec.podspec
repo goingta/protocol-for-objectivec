@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "Classes/**/*.{h,m}"
 
-  non_arc_files = "Classes/*.{m}"
+  non_arc_files = "Classes/**/.{m}"
 
   s.exclude_files = non_arc_files
 
