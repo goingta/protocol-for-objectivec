@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "protocol-for-objectivec"
   s.version      = "0.0.1"
-  s.summary      = "A short description of protocol-for-objectivec."
+  s.summary      = "protocol-for-objectivec."
 
   s.description  = <<-DESC
                    A longer description of protocol-for-objectivec in Markdown format.
