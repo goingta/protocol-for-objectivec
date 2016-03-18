@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = "Classes"
+  s.source_files = "Classes/**/*.{h,m}"
 
   non_arc_files = "Classes/*.{m}"
 
