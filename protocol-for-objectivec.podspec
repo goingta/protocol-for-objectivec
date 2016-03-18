@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/goingta/protocol-for-objectivec.git", :tag => s.version.to_s}
   
-  s.requires_arc = true
+  s.requires_arc = false
 
   s.ios.deployment_target = '7.0'
 
