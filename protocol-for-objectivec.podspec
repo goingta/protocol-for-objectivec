@@ -31,4 +31,9 @@ Pod::Spec.new do |s|
 
   s.exclude_files = non_arc_files
 
+  s.subspec 'no-arc' do |sna|
+    sna.requires_arc = false
+    sna.source_files = non_arc_files
+  end
+
 end
